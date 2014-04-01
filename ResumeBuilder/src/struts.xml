@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.custom.i18n.resources" value="global" />
+	<constant name="struts.devMode" value="false" />
+	
+	<package name="showcase" extends="struts-default,json-default">
+	
+		<result-types>
+			<result-type name="json" class="org.apache.struts2.json.JSONResult" />
+		</result-types>	
+	
+		<interceptors>
+			<interceptor name="ClearCacheInterceptor" class="com.interceptors.ClearCacheInterceptor"/>
+			<interceptor-stack name="applicationStack">
+				<interceptor-ref name="ClearCacheInterceptor" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+		
+		<default-interceptor-ref name="applicationStack"></default-interceptor-ref>
+		
+		<action name="login" class="com.login.LoginAction">
+			<result name="success">/resume.jsp</result>
+			<result name="input">/index.jsp</result>
+			<result name="error">/index.jsp</result>
+		</action>
+		
+		<action name="logout" class="com.logout.LogoutAction">
+			<result name="success">/index.jsp</result>
+			<result name="error">/index.jsp</result>
+		</action>
+	</package>
+</struts>

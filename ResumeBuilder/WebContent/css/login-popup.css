@@ -1,0 +1,187 @@
+.user {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	height: auto;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 200ms ease-in;
+	-moz-transition: opacity 200ms ease-in;
+	transition: opacity 200ms ease-in;
+	pointer-events: none;
+}
+/* 
+#user:target {
+	opacity: 1;
+	pointer-events: auto;
+} */
+
+#signup:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+#signin:target{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.popup_box {
+	width: 700px;
+	height: 400px;
+	margin: 8% auto;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+.close_login {
+	position: absolute;
+	top: 90px;
+	right: 325px;
+	color: #FFFFFF;
+	line-height: 25px;
+	text-align: center;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 12px;
+}
+
+.close_login a{
+	background: rgba(0, 0, 0, 0);
+}
+
+.nav_tabs {
+	height: 18px;
+	border-bottom: 1px solid #DDD;
+	padding: 16px;
+}
+
+.nav_tabs li {
+	list-style: none;
+	float: left;
+}
+
+.nav_tabs>li>a {
+	color: #d92727;
+	padding: 5px 15px;
+	font-size: 13px;
+}
+
+.arrow-filled {
+	display: block;
+	position: relative;
+	top: 6px;
+	margin: auto;
+}
+
+.errorMessage li {
+	text-align: left;
+	position: relative;
+	margin: auto;
+	font-size: 10px;
+	color: red;
+	top: 3px;
+	bottom: 3px;
+}
+
+.error1 {
+	display: none;
+	position: relative;
+	margin: auto;
+	font-size: 12px;
+	color: #333;
+}
+
+.forms_div {
+	padding: 15px;
+	height: 300px;
+	color: #333;
+}
+
+.forms_div table td {
+	padding: 2px;
+}
+
+.forms_div table td input {
+	padding: 5px;
+	width: 99%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.forms_div table td input:focus {
+	border-color: rgba(82, 168, 236, 0.8);
+	outline: 0;
+	outline: thin dotted 9;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px
+		rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px
+		rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px
+		rgba(82, 168, 236, 0.6);
+}
+
+.forms_div table td a {
+	text-decoration: none;
+	color: #333;
+}
+
+.forms_div table td a:hover {
+	text-decoration: underline;
+	color: #d92727;
+}
+
+.forms_div table td input[type="submit"] {
+	background-color: #d92727;
+	color: #fff;
+	height: 35px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  *background-color: #821616;
+  background-image: -moz-linear-gradient(top, #ed494e, #821616);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ed494e), to(#821616));
+  background-image: -webkit-linear-gradient(top, #ed494e, #821616);
+  background-image: -o-linear-gradient(top, #ed494e, #821616);
+  background-image: linear-gradient(to bottom, #ed494e, #821616);
+  background-repeat: repeat-x;
+  border-color: #821616 #821616 #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+
+
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  *background-color: #821616;
+  background-image: -moz-linear-gradient(top, #ed494e, #821616);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ed494e), to(#821616));
+  background-image: -webkit-linear-gradient(top, #ed494e, #821616);
+  background-image: -o-linear-gradient(top, #ed494e, #821616);
+  background-image: linear-gradient(to bottom, #ed494e, #821616);
+  background-repeat: repeat-x;
+  border-color: #821616 #821616 #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	  
+}
+
+.login_msg {
+	width: 280px;
+	margin: auto;
+	list-style: none;
+	margin: 20px 0 0 30px;
+}
+
+.login_msg li{
+	text-align: left;
+}

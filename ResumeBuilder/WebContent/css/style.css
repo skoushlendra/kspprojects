@@ -1,0 +1,221 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url('font/OpenSans.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	
+	font-family: 'OpenSans-Semibold';
+	src: url('font/OpenSans-Semibold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	
+	font-family: 'OpenSans Bold';
+	src: url('font/OpenSans Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+html,body,ul,li,a {
+	outline: 0px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #888;
+	font-size: 12px;
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+	background-color: #F2F2F2;
+	font-family: OpenSans, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+@-webkit-keyframes rotate {
+	from {
+		-webkit-transform:rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+.short-header {
+	clear: both;
+	min-height: 50px;
+	min-width: 100%;
+	position: fixed;
+	z-index: 9999;
+	background: #E3E4E4;
+	background: -moz-linear-gradient(top, white 0, #E3E3E3 100%);
+	background: -webkit-linear-gradient(top, white 0, #E3E3E3 100%);
+	background: -o-linear-gradient(top, white 0, #E3E3E3 100%);
+	background: -ms-linear-gradient(top, white 0, #E3E3E3 100%);
+	background: linear-gradient(to bottom, white 0, #E3E3E3 100%);
+}
+
+.body {
+	width: 100%;
+	padding-top:70px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.login a:first-child {
+	background-image: none;
+}
+
+.login a {
+	padding: 15px 20px 15px 0;
+	background: url("images/base.png") no-repeat -254px -23px;
+	text-align: center;
+}
+
+.login-div:active {
+	color: #0000FF;
+}
+
+.container {
+	width: 75%;
+	margin: auto;
+}
+
+.smartview {
+	height: 250px;
+	background-color: #E6E6E6;
+	background: -moz-linear-gradient(right, #F5F5F5 0%, #E6E6E6 100%);
+	background: -webkit-linear-gradient(right, #F5F5F5 0%, #E6E6E6 100%);
+	background: -o-linear-gradient(right, #F5F5F5 0%, #E6E6E6 100%);
+	background: -ms-linear-gradient(right, #F5F5F5 0%, #E6E6E6 100%);
+	background: linear-gradient(to right, #F5F5F5 0%, #E6E6E6 100%);
+}
+
+.overview {
+	padding: 20px 0 25px 0;
+	border-collapse: separate;
+	border-spacing: 0px;
+	width: 100%;
+}
+
+/*resume_css*/
+
+.breadcrumbs{width:100%; height:15px;padding:5px 0;background-color:#ccc;}
+.inner_breadcrumbs{width:75%;margin:auto; height:15px;padding:0;background-color:#ccc;text-align:left;}
+
+.resume_div{width:1013px;margin:auto; height:auto;min-height:500px;padding:0;background-color:transparent;}
+.profile_div{width:227px;margin:auto; height:500px;padding:0;background-color:transparent;float:left;}
+.resume_container_div{width:570px;margin:auto;height:460px;padding:10px;background-color:#ddd;float:left;}
+.navigator_div{width:180px;margin:auto; height:300px;padding:0 5px;background-color:transparent;float:right;}
+
+
+
+.user_name{width:205px;margin:0px 10px 5px 0px; height:30px;padding:0 5px;background-color:transparent;float:left;text-align:left;}
+.user_image{width:205px;margin:5px 10px 5px 0px; height:150px;padding:5px;background-color:#fefefe;float:left;border:1px solid #ddd;}
+.user_details{width:205px;margin:5px 10px 5px 0px; height:auto;padding:5px;background-color:#fefefe;float:left;border:1px solid #ddd;text-align:left;}
+.user_details h3{margin:0;padding:3px;color:#f5535b;border-bottom:1px dashed #f5535b;}
+.user_details b{margin:0;padding:0;color:#f5535b;font-size:9px;}
+.user_details i{margin:0;padding:0;color:#555;font-size:9px;}
+.user_details a{background-color:transparent;text-decoration:underline;}
+.user_details a:hover{background-color:transparent;text-decoration:underline;color:#f5535b;}
+
+.inner_resume_container{width:570px;margin:auto;min-height:415px;padding:0;background-color:#fff;float:left; height: auto;}
+.inner_resume_container h2{text-align:left;color:#f5535d;margin:5px;padding:5px;border-bottom:1px dashed #ddd;}
+
+
+.navigator{width:180px;margin:auto; height:auto;padding:0;background-color:;float:right;background-color:#fefefe;border:1px solid #ddd;text-align:left;}
+.navigator ul li{text-align:left;padding:7px;
+background: #E3E4E4;
+	background: -moz-linear-gradient(top, white 0, #E3E3E3 100%);
+	background: -webkit-linear-gradient(top, white 0, #E3E3E3 100%);
+	background: -o-linear-gradient(top, white 0, #E3E3E3 100%);
+	background: -ms-linear-gradient(top, white 0, #E3E3E3 100%);
+	background: linear-gradient(to bottom, white 0, #E3E3E3 100%);}
+.navigator ul li a{text-align:left;background-color:transparent;padding:7px;}
+.navigator ul li a:hover{color:#fff;}
+.navigator ul li:hover{background: #f55359;
+	background: -moz-linear-gradient(top, #b5262d 0, #f55359100%);
+	background: -webkit-linear-gradient(top, #b5262d 0, #f55359 100%);
+	background: -o-linear-gradient(top, #b5262d 0, #f55359 100%);
+	background: -ms-linear-gradient(top, #b5262d 0, #f55359 100%);
+	background: linear-gradient(to bottom, #b5262d 0, #f55359 100%);}
+	
+	
+p {
+	text-align: justify;
+	font-size: 12px;
+}
+
+.job-seeker,.create-resume,.update-resume {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: 1px white solid;
+	background: #EBEBEB;
+	width: 95%;
+	min-height: 230px;
+	height: auto;
+}
+
+.job-seeker:hover,.create-resume:hover,.update-resume:hover {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: 1px dashed #CCC;
+	cursor: pointer;
+}
+
+.job-seeker:hover div img, .create-resume:hover div img, .update-resume:hover div img {
+	-webkit-animation: rotate 3s linear infinite;
+}
+
+.create-resume {
+	border-radius: 0px;
+	background: #EFEDED;
+}
+
+.update-resume {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.top,.bottom {
+	text-align: center;
+	padding: 5px 15px;
+}
+
+.three-icons {
+	width: 150px;
+	height: 150px;
+}
+
+#footer {
+	clear: both;
+	padding: 10px 0 30px 0;
+	border-top: 1px #d1d1d1 solid;
+	font-size: 12px;
+	background-color: #821616;
+}
+
+#footer * {
+	background: none;
+	color: #E7E7E7;
+}
+
+#footer table {
+	border-collapse: separate;
+	border-spacing: 30px;
+	width: 100%;
+}
+
+#footer li a {
+	line-height: 30px;
+	text-align: left;
+	font-size: 14px;
+}
+
+#footer li a {
+	font-size: 16px;
+	font-family: OpenSans Bold;
+}
