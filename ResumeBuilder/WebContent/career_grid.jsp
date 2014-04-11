@@ -16,20 +16,21 @@
 </head>
 <body>
 	<s:div cssClass="resume_container_div">
-					<s:div cssClass="inner_resume_container">
-							<h2>Career Objective :- </h2><br/>
-							<s:div cssClass="rich_text_box">
-							<s:textarea rows="15" cols="67"></s:textarea>
-							</s:div>
-							<s:div cssClass="button_area">
-							<s:a href="#" cssClass="grid_button" ><span id="nt_bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Next</s:a> 
-							<s:a href="#" cssClass="grid_button" ><span id="sk_bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Skip</s:a> 
-							<s:a href="#" cssClass="grid_button" ><span id="sv_bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Save</s:a> 
-							<s:a href="#" cssClass="grid_button" ><span id="dt_bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Delete</s:a> 
-							<s:a href="#" cssClass="grid_button" ><span id="add_bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Add</s:a>  	
-							</s:div>
-		    		</s:div>
-		    </s:div>
-		    
+		<s:div cssClass="inner_resume_container">
+			<h2>Career Objective :- </h2><br/>
+			
+			<s:div cssClass="rich_text_box">
+				<s:textarea rows="15" cols="67"></s:textarea>
+			</s:div>
+			
+			<s:div cssClass="button_area">
+				<s:a cssClass="grid_button" ><span id="nt_bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Next</s:a> 
+				<s:a cssClass="grid_button" ><span id="sk_bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Skip</s:a> 
+				<s:a cssClass="grid_button" ><span id="sv_bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Save</s:a> 
+				<s:a cssClass="grid_button" ><span id="dt_bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Delete</s:a> 
+				<s:a cssClass="grid_button" ><span id="add_bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;Add</s:a>  	
+			</s:div>
+		</s:div>
+	</s:div>
 </body>
 </html>

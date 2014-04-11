@@ -9,7 +9,7 @@
 			<li><a href="#signup">New user? Create account.</a></li>
 		</ul>
 		<s:div cssClass="forms_div">
-			<table id="signin_table" border="0">
+			<table id="signin_table">
 				<tr>
 					<td width="50%" valign="top" style="border-right: 1px solid #ccc;">
 						<s:form action="login" id="login_form" theme="simple">
