@@ -27,7 +27,7 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 		</noscript>
 	</div>
 	<!-- This <fieldset> holds the HTML code that you will usually find in your pages. -->
-	<form action="assets/sample_posteddata.jsp" method="post">
+	<form action="successfirst.jsp" method="post">
 		<p>
 			<label for="editor1">Editor 1:</label>
 		</p>
@@ -127,7 +127,7 @@ For licensing, see LICENSE.html or http://ckeditor.com/license
 				
 				settings.addConfigValue("toolbar", toobarListSections);
 			%>
-			<ckeditor:editor textareaAttributes="<%=attr %>" basePath="ckeditor/" config="<%=settings %>" editor="editor1" value="<%= value %>"></ckeditor:editor>
+			<ckeditor:editor textareaAttributes="<%=attr %>" basePath="ckeditor/" config="<%=settings %>" editor="documentdata" value="<%= value %>"></ckeditor:editor>
 			<input type="submit" value="Submit"/>
 		</p>
 	</form>

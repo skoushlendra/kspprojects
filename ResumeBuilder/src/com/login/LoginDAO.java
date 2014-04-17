@@ -30,8 +30,8 @@ public class LoginDAO
 	public LoginDAO(LoginBean bean) throws SQLException, Exception
 	{
 		this.bean = bean;
-		dao = DAO.getInstance();
-		con = dao.getConnection();
+		/*dao = DAO.getInstance();
+		con = dao.getConnection();*/
 	}
 	
 	public boolean userVerification()
@@ -39,7 +39,7 @@ public class LoginDAO
 		boolean verifiedUser = false;
 		try
 		{
-			String getDBUSERByUserIdSql = "{call getLogin(?,?,?,?,?)}";
+			/*String getDBUSERByUserIdSql = "{call getLogin(?,?,?,?,?)}";
 			cstm = dao.getCSTM(getDBUSERByUserIdSql);
 			
 			cstm.setString(1, bean.getUsername());
@@ -51,11 +51,11 @@ public class LoginDAO
 			
 			firstName = cstm.getString(3);
 			lastName = cstm.getString(4);
-			role = cstm.getString(5);
+			role = cstm.getString(5);*/
 			
-			bean.setFirstName(firstName);
-			bean.setLastName(lastName);
-			bean.setRole(role);
+			bean.setFirstName("Koushlendra Singh");
+			bean.setLastName("Parihar");
+			bean.setRole("admin");
 			bean.setUsername(bean.getUsername());
 			
 			verifiedUser = true;
