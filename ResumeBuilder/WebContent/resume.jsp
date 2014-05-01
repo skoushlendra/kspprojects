@@ -63,28 +63,28 @@
 			    
 			    <s:div cssClass="user_details">
 					<h3>Profile</h3><br/>
-					<table border="0" width="100%" height="200"> 
-			<tr>
-				<td valign="top" align="left" width="41%" ><b>Company :</b></td>
-				<td valign="top" align="left"><i>Infogravity Solutions, Indore</i></td>
-			</tr>
-			<tr>
-				<td valign="top" align="left" width="41%" ><b>Designation :</b></td>
-				<td valign="top" align="left"><i>Web Developer</i></td>
-			</tr>
-			<tr>
-				<td valign="top" align="left" width="41%" ><b>Technology :</b></td>
-				<td valign="top" align="left"><i>HTML, CSS, Javascript</i></td>
-			</tr>
-			<tr>
-				<td valign="top" align="left" width="41%" ><b>Working From :</b></td>
-				<td valign="top" align="left"><i>2 Year</i></td>
-			</tr>
-			<tr>
-				<td valign="top" align="left" width="41%" >&nbsp;</td>
-				<td valign="bottom" align="right"><a href="#">+more</a></td>
-			</tr>
-		</table>			
+					<table height="200"> 
+						<tr>
+							<td valign="top" align="left" width="41%" ><b>Company :</b></td>
+							<td valign="top" align="left"><i>Infogravity Solutions, Indore</i></td>
+						</tr>
+						<tr>
+							<td valign="top" align="left" width="41%" ><b>Designation :</b></td>
+							<td valign="top" align="left"><i>Web Developer</i></td>
+						</tr>
+						<tr>
+							<td valign="top" align="left" width="41%" ><b>Technology :</b></td>
+							<td valign="top" align="left"><i>HTML, CSS, Javascript</i></td>
+						</tr>
+						<tr>
+							<td valign="top" align="left" width="41%" ><b>Working From :</b></td>
+							<td valign="top" align="left"><i>2 Year</i></td>
+						</tr>
+						<tr>
+							<td valign="top" align="left" width="41%" >&nbsp;</td>
+							<td valign="bottom" align="right"><a href="#">+more</a></td>
+						</tr>
+					</table>			
 			    </s:div>
 			</s:div>
 			
@@ -108,7 +108,6 @@
 						<li><a href="">Interests</a></li>
 						<li><a href="">References</a></li>
 						<li><a href="">Contact Informations</a></li>					
-					
 					</ul>
 				</s:div>
 		    </s:div>
