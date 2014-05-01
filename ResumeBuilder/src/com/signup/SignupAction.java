@@ -101,6 +101,7 @@ public class SignupAction extends ActionSupport
 		String result = ERROR;
 		SignupBean bean = new SignupBean(fName, lName, emailId, gender, mobile, userId, password);
 		SignupDAO dao = new SignupDAO();
+		
 		if (dao.insertRecord(bean))
 		{
 			result = SUCCESS;

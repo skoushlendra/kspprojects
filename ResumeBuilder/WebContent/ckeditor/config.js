@@ -9,4 +9,5 @@
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
 	 config.uiColor = '#DADADA';
+	 config.extraPlugins = 'clipboard';
 };

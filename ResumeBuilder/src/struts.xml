@@ -30,5 +30,10 @@
 			<result name="success">/index.jsp</result>
 			<result name="error">/index.jsp</result>
 		</action>
+		
+		<action name="kspckeditor" class="Test">
+			<result name="success">/successfirst.jsp</result>
+			<result name="error">/ksptest.jsp</result>
+		</action>
 	</package>
 </struts>
